@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.myOptions{
+    margin-bottom: 35px;
+}
+
+.option{
+    font-size: 5rem;
+    margin: 0px 20px;
+    border-radius: 200px;
+    border: none;
+    background-color: hsl(208, 41%, 45%);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+}
+
+.option:hover{
+    background-color: hsl(208, 41%, 60%) ;
+}
+
+#playerchoice{
+    font-size: 2rem;
+}
+
+#computerchoice{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#result{
+    font-size: 5rem;
+}
+
+.greencolor{
+    color: hsl(120, 49%, 35%);
+}
+.redcolor{
+    color: hsl(0, 85%, 53%);
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-image: url(vancouver.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-weight: bold;
+    color: white;
+    font-size: 6.5rem;
+    font-family: monospace;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 0%, 100%, 0.1);
+    width: 100%;
+}
+

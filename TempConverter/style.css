@@ -1,0 +1,47 @@
+body {
+    background-color: hsla(0, 10%, 92%, 0.944);
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  hsla(0, 0%, 0%, 0.3);
+}
+
+h1{
+    color: hsl(205, 69%, 43%);
+}
+
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
+    border-radius: 4px;
+    font-weight: bold;
+    border-color: black;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#submit {
+    background-color: rgb(251, 120, 27);
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 2em;
+}
+

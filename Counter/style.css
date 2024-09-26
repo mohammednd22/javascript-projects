@@ -1,0 +1,35 @@
+.center{
+    text-align: center;
+}
+
+#counter{
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    color: black;
+}
+
+#increase{
+    background-color: #007Aff ;
+    color: white;
+}
+
+#decrease{
+    background-color: forestgreen;
+    color: white;
+}
+
+.buttons{
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
